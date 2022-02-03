@@ -745,7 +745,7 @@ label.valid:after {
 
 .home-page {
   /* width: 100vw; */
-  height: 90vh;
+  height: 20vh;
   background-image: linear-gradient(90deg, #ecf0ff 50%, #fff 50%);
   display: flex;
   justify-content: center;
@@ -1105,3 +1105,130 @@ label.valid:after {
     font-size: 26px;
   }
 }
+
+/* Changing section tarted here, used normal css to do this  */
+
+.changing{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.changingtwo{
+    font-size: 20px;
+    font-weight: 500;
+    /* text-shadow: 2px 1px 5px black; */
+    text-transform: uppercase;
+    /* margin: 30px 0 20px 0; */
+}
+
+.change_content:after{
+    content:'' ;
+    animation: changetext 25s infinite linear;
+    color:rgb(112, 177, 15);
+    font-weight: 2000;
+    
+}
+
+@keyframes changetext{
+    0%{content:"Digital Clock 🕖";}
+    30%{content: "Digital Calculator 🎛";}
+    60%{content: "FORM VALIDATION";}
+    75%{content: "TEMPERATURE CONVERTER 🌡";}
+    100%{content: "And Many More..!";}
+    /* 100%{content: "TIC-TAC-TOE GAME...";} */
+}
+
+/* changing section ended here, only css used  */
+
+/* navbar logo animation started here  */
+
+
+.mainbody{
+	margin: 0;
+	padding: 0;
+	display: flex;
+  background-color: #fcc42d;
+  /* width: 20px; */
+	/* justify-content: center;
+	align-items: center; */
+  /* background-color:; */
+	/* height: 100vh; */
+  /* background-color: black; */
+	/* background-size: cover; */
+	font-family: 'Bad Script', cursive;
+	/* overflow: hidden; */
+}
+
+.animate{
+	margin: 0;
+	padding: 0;
+	color: transparent;
+	font-size: 1em;
+}
+.animate span
+{
+	display: table-cell;
+	animation: animate 1s linear infinite;
+}
+.animate span:nth-child(9n+1)
+{
+	animation-delay: 0.5s;
+}
+.animate span:nth-child(9n+2)
+{
+	animation-delay: 1.25s;
+}
+.animate span:nth-child(9n+3)
+{
+	animation-delay: 2.35s;
+}
+.animate span:nth-child(9n+4)
+{
+	animation-delay: 2.75s;
+}
+.animate span:nth-child(9n+5)
+{
+	animation-delay: 1s;
+}
+h1 span:nth-child(9n+6)
+{
+	animation-delay: 1.35s;
+}
+.animate span:nth-child(9n+7)
+{
+	animation-delay: 1.5s;
+}
+.animate span:nth-child(9n+8)
+{
+	animation-delay: 0.65s;
+}
+.animate span:nth-child(9n+9)
+{
+	animation-delay: 3.85s;
+}
+@keyframes animate
+{
+	0%,100%
+	{
+		color: rgb(82, 72, 72);
+		/* filter: blur(2px); */
+		text-shadow: 0 0 10px #fd8945,
+					 /* 0 0 20px #9fe916,
+					 0 0 40px #4225e4,
+					 0 0 80px #fc3bdc,
+					 0 0 120px #f8f411,
+					 0 0 200px #fcc42d; */
+	}
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900'); */
+
+
+

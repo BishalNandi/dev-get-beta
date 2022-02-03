@@ -37,9 +37,9 @@ const Home = () => {
         <> 
             <div className="home-page"> 
                 <div className="home-div"> 
-                    <p className="pt-5">WELCOME</p> 
+                    <p className="p-5">WELCOME</p> 
                     <h1>{userName}</h1> 
-                    <h2> { show ? 'Happy, to see you back' :  'We Are The MERN Developer' }</h2> 
+                    <h2> { show ? 'Happy, to see you back' :  'Dev-Get.com' }</h2> 
                 </div> 
             </div> 
 
@@ -48,7 +48,7 @@ const Home = () => {
              {/* FIRST SECTION    */}
 
     <main className='bg-gray-100 flex text-black w-full py-1'>
-                <div className='main py-8 px-20'>
+                <div className='main py-1 p-1'>
                 Find a Perfect   <br />
                     <div className=' py-2 text-4xl'>
                    Project Partner...
@@ -197,12 +197,121 @@ const Home = () => {
     </div>
 
 
+      {/* bootstrap updated section  */}
+
+
+      <div class="card-deck mt-5">
+  <div class="card">
+    <img class="card-img-top" src="./images/react.png" alt="Card image cap"/>
+    <div class="card-body">
+      <h5 class="card-title">React Developer</h5>
+      <p class="card-text">In a nutshell, a React developer designs and implements user-facing features for websites and applications using React. They are front-end developers.</p>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <img class="card-img-top" src="/images/angular.png" alt="Card image cap"/>
+    <div class="card-body">
+      <h5 class="card-title">Angular Developer</h5>
+      <p class="card-text">In a nutshell, a Angular developer designs and implements user-facing features for websites and applications using Angular. They are front-end developers</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/images/python.png" alt="Card image cap"/>
+    <div class="card-body">
+      <h5 class="card-title">Python Developer</h5>
+      <p class="card-text">A Python Developer is responsible for coding, designing, deploying, and debugging development projects, typically on the server-side (or back-end).</p>
+    </div>
+
+    {/* section 2 of developers list  */}
+    
+   
+  </div>
+
+  <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="./images/react.png" alt="Card image cap"/>
+    <div class="card-body">
+      <h5 class="card-title">React Developer</h5>
+      <p class="card-text">In a nutshell, a React developer designs and implements user-facing features for websites and applications using React. They are front-end developers.</p>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <img class="card-img-top" src="/images/angular.png" alt="Card image cap"/>
+    <div class="card-body">
+      <h5 class="card-title">Angular Developer</h5>
+      <p class="card-text">In a nutshell, a Angular developer designs and implements user-facing features for websites and applications using Angular. They are front-end developers</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/images/python.png" alt="Card image cap"/>
+    <div class="card-body">
+      <h5 class="card-title">Python Developer</h5>
+      <p class="card-text">A Python Developer is responsible for coding, designing, deploying, and debugging development projects, typically on the server-side (or back-end).</p>
+    </div>
+
+    
+    
+   
+  </div>
+  </div>
+
+
+  {/* section 3of developers list  */}
+
+
+  </div>
+
+<div class="card-deck">
+<div class="card">
+  <img class="card-img-top" src="./images/react.png" alt="Card image cap"/>
+  <div class="card-body">
+    <h5 class="card-title">React Developer</h5>
+    <p class="card-text">In a nutshell, a React developer designs and implements user-facing features for websites and applications using React. They are front-end developers.</p>
+  </div>
+</div>
+
+
+<div class="card">
+  <img class="card-img-top" src="/images/angular.png" alt="Card image cap"/>
+  <div class="card-body">
+    <h5 class="card-title">Angular Developer</h5>
+    <p class="card-text">In a nutshell, a Angular developer designs and implements user-facing features for websites and applications using Angular. They are front-end developers</p>
+  </div>
+</div>
+<div class="card">
+  <img class="card-img-top" src="/images/python.png" alt="Card image cap"/>
+  <div class="card-body">
+    <h5 class="card-title">Python Developer</h5>
+    <p class="card-text">A Python Developer is responsible for coding, designing, deploying, and debugging development projects, typically on the server-side (or back-end).</p>
+  </div>
+
+  
+  
+ 
+</div>
+{/* </div> */}
+{/* </div> */}
+
+
+
+
+
+
+
+
+  
+
+
 
    
             {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg> */}
-             <div class="flex flex-wrap -m-4">
+             {/* <div class="flex flex-wrap -m-4">
       <div class="xl:w-1/3 md:w-1/2 ">
         <div class="border border-gray-200 p-6 rounded-lg">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
@@ -212,11 +321,11 @@ const Home = () => {
           <h2 class="text-lg text-gray-900 font-medium title-font mb-2">React Developer</h2>
           <p class="leading-relaxed text-base">In a nutshell, a React developer designs and implements user-facing features for websites and applications using React. They are front-end developers.</p>
         </div>
-      </div>
+      </div> */}
 
 
       
-      <div class="xl:w-1/3 md:w-1/2 ">
+      {/* <div class="xl:w-1/3 md:w-1/2 ">
         <div class="border border-gray-200 p-6 rounded-lg">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
           <img className='h-12 m-8' src="./images/angular.png" alt='error loading'/>
@@ -225,8 +334,8 @@ const Home = () => {
           <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Angular Developer</h2>
           <p class="leading-relaxed text-base">In a nutshell, a Angular developer designs and implements user-facing features for websites and applications using Angular. They are front-end developers</p>
         </div>
-      </div>
-      <div class="xl:w-1/3 md:w-1/2 ">
+      </div> */}
+      {/* <div class="xl:w-1/3 md:w-1/2 ">
         <div class="border border-gray-200 p-6 rounded-lg">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
           <img className='h-12 m-8' src="./images/python.png" alt='error loading'/>
@@ -235,7 +344,7 @@ const Home = () => {
           <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Python Developer</h2>
           <p class="leading-relaxed text-base">A Python Developer is responsible for coding, designing, deploying, and debugging development projects, typically on the server-side (or back-end).</p>
         </div>
-      </div>
+      </div> */}
       <div class="xl:w-1/3 md:w-1/2 ">
         <div class="border border-gray-200 p-6 rounded-lg">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
@@ -502,7 +611,7 @@ along with source code, notes and doubt clearing ssessions. </h1> <br/>
           <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/305x305"/>
           <p class="leading-relaxed">COMMENTS...</p>
           <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-          <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Siddiq Pasha</h2>
+          <h2 class="text-gray-900 font-medium title-font tracking-wider text-xl">Siddiq Pasha</h2>
           <p class="text-gray-500">Designation, Edunet</p>
         </div>
       </div>
@@ -512,7 +621,7 @@ along with source code, notes and doubt clearing ssessions. </h1> <br/>
 
 
       {/* seventh section ends here  */}
-       
+      <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
        
        
              

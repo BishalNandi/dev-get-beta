@@ -80,6 +80,11 @@ const Navbar = () => {
                     <li className="nav-item">
                         <NavLink exact activeClassName="active-page" className="nav-link" to="/about">AboutMe</NavLink>
                     </li>
+
+                    <li className="nav-item">
+                        <NavLink exact activeClassName="active-page" className="nav-link" to="/project">Explore Projects</NavLink>
+                    </li>
+                    
                     <li className="nav-item">
                         <NavLink exact activeClassName="active-page" className="nav-link" to="/contact">Contact</NavLink>
                     </li>
@@ -130,17 +135,14 @@ const Navbar = () => {
 
                         <body className='mainbody'>
 <h1 className='animate '>
-			<span>D</span>
-            <span>e</span>
-            <span>v</span>
-            <span>-</span>
-            <span>G</span>
-            <span>e</span>
-            <span>t</span>
-            <span>.</span>
-            <span>C</span>
-            <span>o</span>
-            <span>m 🌱</span>
+        <span>Dev-Get</span>
+			<span><sup>B</sup></span>
+            <span><sup>E</sup></span>
+            <span><sup>T</sup></span>
+            <span><sup>A</sup> </span>
+           
+           
+            <span> 🌱</span>
             
            
 		</h1>
